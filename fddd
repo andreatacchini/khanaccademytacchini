@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>andrea tacchini"Sfida: Classi di elementi"</title>
+        <style>
+            body {
+            background-color: rgb(0, 0, 0);  /* Colore di sfondo blu chiaro */
+        }
+             h1 {
+            font-size: 70px;
+            font-family: 'cambria', Times, serif;
+            background-color: rgb(0, 0, 0);
+            color: white;
+            text-align: center;
+        }
+             h2 {
+            font-size: 35px;
+            font-family: 'cambria', Times, serif;
+            background-color: rgb(0, 0, 0);
+            color: white;
+            text-align: center;
+        }
+            p {
+            font-size: 30px;
+            font-family: cambria', Times, serif;
+            background-color: rgb(0, 0, 0);
+            color: white;
+            text-align: center;
+            border-bottom: 1px solid rgb(0, 0, 0);
+            padding: 3px;
+        }
+            .ringraziamenti {
+                color: rgb(0, 0, 0);
+                background-color: rgb(98, 0, 255);
+                text-align: center ;
+                font-family: 'cambria', Times, serif;
+                
+            }
+            h4 {
+            font-size: 25px;
+            font-family: 'cambria', Times, serif;
+            background-color: rgb(0, 0, 0);
+            color: white;
+            text-align: center;
+        }
+            h5 {
+            font-size: 20px;
+            font-family: 'cambria', Times, serif;
+            background-color: rgb(0, 0, 0);
+            color: white;
+            text-align: center;
+        }
+            .navbar {
+            background-color: #333;
+            overflow: hidden;
+            text-align: center;
+        }
+
+         /* Link nella barra di navigazione */
+         .navbar a {
+            float: left;
+            display: block;
+            color: white;
+
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        /* Cambia colore dei link al passaggio del mouse */
+        .navbar a:hover {
+            background-color: #ffffff;
+            color: black;
+        }
+         </style>
+    <body>
+        <p class="ringraziamenti">GRAZIE PER AVER APERTO IL NOSTRO SITO !!</p>
+        <h1>3D.MOTOLAB</h1>
+        <div class="navbar" style="text-align: center;">
+            <a href="index.html">HOME</a>
+            <a href="paginahome.html">PRODOTTI </a>
+            <a href="CONTATTI.HTML">CONTATTI </a>
+        </div>
+
+        <h4>IL DETTAGLIO CHE FA LA DIFFERENZA, TI IDENTIFICA.</h4>
+      <h5>
+        Il nostro core business riguarda la produzione di componenti e accessori realizzati attraverso la stampa 3D utilizzando grande attenzione verso la qualità dei materiali e il product design.
+        
+        Passione, innovazione e tecnologica all’avanguardia sono i pilastri che stanno alla base di 3D.MOTOLAB; virtù che ci hanno stimolato nella produzione e nello sviluppo di prodotti funzionali e personalizzabili in base ai propri gusti ed esigenze.
+        
+        Molto più di una stampa. La nostra attività fornisce un servizio di personalizzazione su misura, dal mondo dei motori fino a gadget ed accessori per tutti i giorni.
+        
+        Naviga e scopri il catalogo di prodotti disponibili per essere resi unici e inimitabili.
+        Trasmetti la tua personalità attraverso i colori, il tuo logo o una scritta: siamo qui per aiutarti a realizzare quello che hai in mente.  
+        
+        Siamo sempre alla ricerca di nuove idee per ampliare e rendere completo il nostro servizio.</h5>
+        <!DOCTYPE html>
+        <div style="text-align: center;">
+        <img src="https://cdn.shopify.com/s/files/1/0572/6987/8922/files/1_1_72789b38-9501-40b0-9366-2c5fa28dc959_1024x1024.jpg?v=1672616496"  alt=" immagine moto" >
+      </div>
+
+</body>
+</html>
+    </body>
+</html>

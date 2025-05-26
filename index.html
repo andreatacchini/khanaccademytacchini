@@ -1,103 +1,172 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>andrea tacchini"Sfida: Classi di elementi"</title>
-        <style>
-            body {
-            background-color: rgb(0, 0, 0);  /* Colore di sfondo blu chiaro */
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <title>Andrea Tacchini: Sfida - Classi di Elementi</title>
+    <style>
+        body {
+            background-color: rgb(0, 0, 0);  /* Colore di sfondo */
+            color: white;  /* Colore del testo */
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
-             h1 {
+
+        /* Titolo */
+        h1 {
             font-size: 70px;
-            font-family: 'Times New Roman', Times, serif;
+            font-family: 'Cambria', Times, serif;
             background-color: rgb(0, 0, 0);
             color: white;
             text-align: center;
+            margin-top: 30px;
+            text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.7);
         }
-             h2 {
-            font-size: 35px;
-            font-family: 'Times New Roman', Times, serif;
-            background-color: rgb(0, 0, 0);
+
+        /* Navbar */
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Link nella barra di navigazione */
+        .navbar a {
+            display: inline-block;
+            color: rgb(255, 255, 255);
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+            font-size: 18px;
+            transition: all 0.3s ease;
+        }
+
+        /* Cambia colore dei link al passaggio del mouse */
+        .navbar a:hover {
+            background-color: rgb(98, 0, 255);
+            color: white;
+            transform: scale(1.1);
+        }
+
+        /* Testo principale */
+        p.ringraziamenti {
+            font-size: 24px;
+            font-family: 'Cambria', Times, serif;
+            background-color: rgb(98, 0, 255);
             color: white;
             text-align: center;
+            padding: 15px;
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
         }
-            p {
+
+        h4 {
             font-size: 30px;
-            font-family: 'Times New Roman', Times, serif;
-            background-color: rgb(0, 0, 0);
+            font-family: 'Cambria', Times, serif;
             color: white;
             text-align: center;
-            border-bottom: 1px solid rgb(230, 230, 230);
-            padding: 3px;
+            margin-top: 50px;
+            text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.7);
         }
-            .ringraziamenti {
-                color: rgb(0, 0, 0);
-                background-color: rgb(98, 0, 255);
-                text-align: center ;
-                font-family: 'Times New Roman', Times, serif;
-                
+
+        h5 {
+            font-size: 20px;
+            font-family: 'Cambria', Times, serif;
+            color: white;
+            text-align: center;
+            margin-top: 20px;
+            line-height: 1.6;
+            padding: 10px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Immagine principale */
+        .image-container {
+            display: flex;
+            justify-content: center; /* Centra orizzontalmente */
+            align-items: center;     /* Centra verticalmente */
+            margin-top: 400px;
+            height: 400px;           /* Imposta un'altezza per il contenitore */
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            transition: transform 0.3s ease-in-out;
+            margin-top: 00px;
+
+        }
+
+        /* Effetto zoom sull'immagine */
+        img:hover {
+            transform: scale(1.1);
+        }
+
+        /* Stili per migliorare la disposizione generale */
+        .content {
+            padding: 20px;
+        }
+
+        /* Aggiungere effetto su img e testo */
+        h1, h4 {
+            animation: fadeIn 2s ease-out;
+        }
+
+        /* Animazione per il testo */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
             }
-            .non-metal {
-                color: blue;
+            to {
+                opacity: 1;
             }
-            .semi-metal {
-                color: purple;
-            }
-        h2.metal  {
-                background-color: red;
-                color: white;
-            }
-            h2.non-metal  {
-                background-color: blue;
-                color: white;
-            }
-            h2.semi-metal  {
-                background-color: purple;
-                color: white;
-            }
-            a. {
-                color: blue;
-            }
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Messaggio di benvenuto -->
+    <p class="ringraziamenti">GRAZIE PER AVER APERTO IL NOSTRO SITO !!</p>
+
+    <!-- Titolo principale -->
+    <h1>3D.MOTOLAB</h1>
+
+    <!-- Barra di navigazione -->
+    <div class="navbar">
+        <a href="index.html">HOME</a>
+        <a href="paginahome.html">PRODOTTI</a>
+        <a href="CONTATTI.HTML">CONTATTI</a>
+    </div>
+
+    <!-- Sottotitolo -->
+    <h4>IL DETTAGLIO CHE FA LA DIFFERENZA, TI IDENTIFICA.</h4>
+
+    <!-- Descrizione azienda -->
+    <h5>
+        Il nostro core business riguarda la produzione di componenti e accessori realizzati attraverso la stampa 3D utilizzando grande attenzione verso la qualità dei materiali e il product design.
         
-        </style>
-    <body>
-        <p class="ringraziamenti">GRAZIE PER AVER APERTO IL NOSTRO SITO !!</p>
-        <h1>3D.motolab</h1>
-        <h2>   HOME      -      PRODOTTI   -   COLLABORA CON NOI   -   CONTATTI </h2>
-        <!DOCTYPE html>
-        <div style="text-align: center;">
-        <img src="https://cdn.shopify.com/s/files/1/0572/6987/8922/files/1_1_72789b38-9501-40b0-9366-2c5fa28dc959_1024x1024.jpg?v=1672616496"  alt=" immagine moto" >
-      </div>
+        Passione, innovazione e tecnologica all’avanguardia sono i pilastri che stanno alla base di 3D.MOTOLAB; virtù che ci hanno stimolato nella produzione e nello sviluppo di prodotti funzionali e personalizzabili in base ai propri gusti ed esigenze.
+        
+        Molto più di una stampa. La nostra attività fornisce un servizio di personalizzazione su misura, dal mondo dei motori fino a gadget ed accessori per tutti i giorni.
+        
+        Naviga e scopri il catalogo di prodotti disponibili per essere resi unici e inimitabili.
+        Trasmetti la tua personalità attraverso i colori, il tuo logo o una scritta: siamo qui per aiutarti a realizzare quello che hai in mente.
+        
+        Siamo sempre alla ricerca di nuove idee per ampliare e rendere completo il nostro servizio.
+    </h5>
+
+    <!-- Immagine prodotto centrata -->
+    <div class="image-container">
+        <img src="https://cdn.shopify.com/s/files/1/0572/6987/8922/files/1_1_72789b38-9501-40b0-9366-2c5fa28dc959_1024x1024.jpg?v=1672616496" alt="immagine moto">
+    </div>
 
 </body>
-</html>
-
-        <p>
-            prodotti personalizzati per rendere unica la tua moto 
-        </p>
-        <a href="paginahome.html"> PRODOTTI</a>
-    <!-- Collegamento al file JavaScript -->
-    <script src="prodotti.JS"></script>
-        
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-        
-        <h2 class="non-metal"></h2>
-        
-        <ul>
-            <li></li>
-            <li></li>
-        </ul>
-        
-        <h2 class="semi-metal"></h2>
-        
-        <ul>
-            <li></li>
-        </ul>
-        
-    </body>
 </html>
